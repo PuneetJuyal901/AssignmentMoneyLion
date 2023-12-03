@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultipleSuite">
+
+
+	<test name="Test1" preserve-order="true">
+		<parameter name="browser" value="Chromeheadless" />
+		<parameter name="enviorment" value="prod" />
+		<classes>
+			<class
+				name="com.test.moneylion.Tc_01_verify_if_user_able_to_access_about_page_successfully"/>
+		</classes>
+	</test>
+
+	<test name="Test2" preserve-order="true">
+		<parameter name="browser" value="Chromeheadless" />
+		<parameter name="enviorment" value="prod" />
+		<classes>
+			<class
+					name="com.test.moneylion.Tc_02_verify_if_user_able_to_view_personal_loan_offers_and_Select_loan_amount"/>
+		</classes>
+	</test>
+
+
+
+</suite> 
+    
+    
+    
+   
+ 
+
+    
+
+
+
+
+	
+
+
+ 
